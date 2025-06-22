@@ -11,6 +11,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -40,8 +41,9 @@ a.externo::after{
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
     min-height: 150px;
+    width: 100%;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 40px; 
 }
 
 header > h1{
@@ -59,8 +61,7 @@ header > p{
     color: white;
     max-width: 500px;
     margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 0px 10px;
+    padding: 0px 10px 20px 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -71,6 +72,8 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1;
+    width: 100%;
+    margin: 0;
 }
 
 nav a{
@@ -198,6 +201,7 @@ footer{
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+    width: 100%;
 }
 
 footer a{
